@@ -1,0 +1,30 @@
+{
+    "name": "privatnotiz-cli",
+    "version": "1.1.4",
+    "description": "CLI-Tool für die sichere Übermittlung von Nachrichten über Privatnotiz",
+    "main": "index.js",
+    "bin": {
+        "privatnotiz": "./index.js"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "cli",
+        "encryption",
+        "privacy",
+        "secret",
+        "privatnotiz"
+    ],
+    "author": "Privatnotiz Team",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.0",
+        "chalk": "^4.1.2",
+        "commander": "^11.0.0",
+        "crypto-js": "^4.2.0",
+        "ora": "^5.4.1",
+        "privatnotiz-cli": "^1.1.4"
+    }
+}

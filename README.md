@@ -1,1 +1,0 @@
-# Privatnotiz-CLI-Tool
